@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HTML References 2</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1.0" >
+   <style>
+    table, th, td {
+      border: 1px solid black;
+    }
+    </style>
+
+<link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+  <h1>The colgroup element</h1>
+
+  <table>
+    <colgroup>
+      <col span="2" style="background-color:red">
+      <col style="background-color:yellow">
+    </colgroup>
+    <tr>
+      <th>ISBN</th>
+      <th>Title</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>3476896</td>
+      <td>My first HTML</td>
+      <td>$53</td>
+    </tr>
+    <tr>
+      <td>5869207</td>
+      <td>My first CSS</td>
+      <td>$49</td>
+    </tr>
+  </table>
+  
+  <p>The following example displays product names but also associates each name with a product number:</p>
+
+  <ul>
+    <li><data value="21053">Cherry Tomato</data></li>
+    <li><data value="21054">Beef Tomato</data></li>
+    <li><data value="21055">Snack Tomato</data></li>
+  </ul>
+  
+  
+  <h1>The datalist element</h1>
+
+  <form action="/action_page.php" method="get">
+    <label for="browser">Choose your browser from the list:</label>
+    <input list="browsers" name="browser" id="browser">
+    <datalist id="browsers">
+      <option value="Edge">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist>
+    <input type="submit">
+  </form>
+  
+  <p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+  
+  <h1>The dl, dd, and dt elements</h1>
+
+  <p>These three elements are used to create a description list:</p>
+  
+  <dl>
+    <dt>Coffee</dt>
+    <dd>Black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>White cold drink</dd>
+  </dl>
+  
+<div class="box blue"></div>  
+<div class="box black" ></div>
+
+   
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,28 @@
+.box{
+
+   width:100px;
+   height:100px;
+   background-color: blue;
+   
+}
+
+
+
+  #box{
+    padding: 80px;
+    color: rgb(00,00,00);
+  
+  }
+
+.black{
+
+background-color: black;
+margin: 15px 10px;
+
+
+}
+
+.blue{
+
+padding: 30px;
+}
